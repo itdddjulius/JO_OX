@@ -6,7 +6,7 @@
 
 ## Engine derives BEST MOVE based upon WEIGHTS assigned to Squares
 
-'''
+```
 Initialize the board with blank squares
 const board = ref(['.', '.', '.', '.', '.', '.', '.', '.', '.'])
 const player = 'X'
@@ -39,6 +39,6 @@ const checkWinner = () => {
   }
   return false
 }
-'''
+```
 
 
