@@ -1,12 +1,13 @@
-** Naughts and Crosses
+## Naughts and Crosses
 
 
-** HTML5, CSS3 + JavaScript
+## HTML5, CSS3 + JavaScript
 
 
-** Engine derives BEST MOVE based upon WEIGHTS assigned to Squares
+## Engine derives BEST MOVE based upon WEIGHTS assigned to Squares
 
-// Initialize the board with blank squares
+'''
+Initialize the board with blank squares
 const board = ref(['.', '.', '.', '.', '.', '.', '.', '.', '.'])
 const player = 'X'
 const computer = 'O'
@@ -38,3 +39,6 @@ const checkWinner = () => {
   }
   return false
 }
+'''
+
+
